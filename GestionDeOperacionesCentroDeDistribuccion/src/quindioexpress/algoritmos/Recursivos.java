@@ -4,7 +4,7 @@ import quindioexpress.modelo.Paquete;
 
 import java.util.List;
 
-public class Recursivos {
+public final class Recursivos {
 
     private Recursivos() {}
 

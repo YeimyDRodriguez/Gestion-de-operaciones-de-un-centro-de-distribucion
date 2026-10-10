@@ -4,7 +4,7 @@ import quindioexpress.modelo.Paquete;
 
 import java.util.List;
 
-public class DivideYVenceras {
+public final class DivideYVenceras {
 
     private DivideYVenceras() {}
 
