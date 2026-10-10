@@ -1,5 +1,7 @@
 package modelo;
 
-public class EstadoPaquete {
-
+public enum EstadoPaquete {
+	PENDIENTE,
+	ADIGNADO,
+	ENTREGADO
 }
