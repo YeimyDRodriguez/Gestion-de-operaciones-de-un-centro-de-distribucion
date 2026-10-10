@@ -168,7 +168,7 @@ public class Main {
         List<Paquete> todosOrdenados = centro.getPaquetesOrdenadosPorCodigo();
         System.out.println("En los 31 paquetes ordenados, PQ866 esta en la posicion "
                 + BusquedaBinaria.buscarPorCodigo(todosOrdenados, "PQ866", false));
-
+//DIVIDE Y VENCERAS
         titulo("17. Divide y venceras: paquete de mayor peso");
         double[] pesos = {4.5, 12.0, 3.2, 18.7, 7.4, 5.1};
         List<Paquete> ejemploPesos = new ArrayList<>();
