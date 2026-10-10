@@ -6,7 +6,7 @@ import quindioexpress.modelo.Paquete;
 import java.util.List;
 
 
-public class BusquedaBinaria {
+public final class BusquedaBinaria {
 
     private BusquedaBinaria() {}
 
