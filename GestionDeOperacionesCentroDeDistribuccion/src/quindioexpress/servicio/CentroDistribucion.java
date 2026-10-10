@@ -41,6 +41,7 @@ public class CentroDistribucion {
 
     private final Map<String, Repartidor> repartidores = new LinkedHashMap<>();
 
+    
     private final Map<String, Repartidor> asignaciones = new HashMap<>();
 
     private final ColeccionPropia<Paquete> historial = new ListaSimplementeEnlazada<>();
