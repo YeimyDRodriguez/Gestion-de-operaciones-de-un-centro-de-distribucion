@@ -1,4 +1,4 @@
-package servicio;
+package quindioexpress.servicio;
 
 public class Asignacion {
     

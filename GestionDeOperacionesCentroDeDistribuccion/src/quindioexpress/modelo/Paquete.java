@@ -1,4 +1,4 @@
-package modelo;
+package quindioexpress.modelo;
 
 import java.util.Objects;
 
