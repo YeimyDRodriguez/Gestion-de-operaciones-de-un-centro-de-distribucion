@@ -7,7 +7,7 @@ public class Paquete implements Comparable<Paquete> {
     // Prioridades del paquete
     public static final int PRIORIDAD_MIN = 1;
     public static final int PRIORIDAD_MAX = 5;
-    public static final int PRIORIDAD_POR_DEFECTO = 3;
+    public static final int PRIORIDAD_POR_DEFECTO = 5;
 
     private final String codigo;
     private final String destino;
