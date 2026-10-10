@@ -1,8 +1,10 @@
 package quindioexpress.algoritmos;
 
+
 import quindioexpress.modelo.Paquete;
 
 import java.util.List;
+
 
 public class BusquedaBinaria {
 
