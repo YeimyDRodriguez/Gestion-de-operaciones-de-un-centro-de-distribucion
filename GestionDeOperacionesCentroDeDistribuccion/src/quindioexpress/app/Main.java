@@ -216,11 +216,6 @@ public class Main {
         return String.join(" ", r);
     }
     
-    private static String codigos(List<Paquete> lista) {
-        List<String> r = new ArrayList<>();
-        lista.forEach(p -> r.add(p.getCodigo()));
-        return String.join(", ", r);
-    }
     private static void titulo(String texto) {
         System.out.println();
         System.out.println("==== " + texto + " ====");
