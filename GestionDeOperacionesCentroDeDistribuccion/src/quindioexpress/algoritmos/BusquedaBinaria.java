@@ -1,4 +1,4 @@
-package algoritmos;
+package quindioexpress.algoritmos;
 
 public class BusquedaBinaria {
     
