@@ -14,9 +14,9 @@ public final class Recursivos {
 
     private static double pesoTotal(List<Paquete> paquetes, String destino, int i, boolean traza) {
         String sangria = " ".repeat(i);
-        if (traza) System.out.printf(sangria + "-> Peso Total(i = " + i + ")");
+        if (traza) System.out.println(sangria + "-> Peso Total(i = " + i + ")");
         if (i == paquetes.size()) {
-            if (traza) System.out.printf(sangria + "<- caso base, retorna 0.0");
+            if (traza) System.out.println(sangria + "<- caso base, retorna 0.0");
         }
         Paquete paquete = paquetes.get(i);
         double aporte = paquete.getDestino().equalsIgnoreCase(destino) ? paquete.getPeso() : 0.0;

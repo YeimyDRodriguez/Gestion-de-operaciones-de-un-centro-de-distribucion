@@ -208,7 +208,7 @@ public class Main {
         lista.forEach(p -> r.add(p.getCodigo()));
         return String.join(", ", r);
     }
-
+    
     private static String codigosCon(List<Paquete> lista, String unidad) {
         List<String> r = new ArrayList<>();
         for (Paquete p : lista) {
@@ -222,6 +222,7 @@ public class Main {
         return String.join(" ", r);
     }
 
+    
     private static void titulo(String texto) {
         System.out.println();
         System.out.println("==== " + texto + " ====");

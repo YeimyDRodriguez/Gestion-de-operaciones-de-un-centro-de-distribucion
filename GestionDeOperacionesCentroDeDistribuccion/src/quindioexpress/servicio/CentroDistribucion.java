@@ -15,6 +15,7 @@ import java.util.Queue;
 import java.util.Set;
 import java.util.SortedSet;
 import java.util.TreeSet;
+import java.util.HashSet;
 
 import quindioexpress.estructuras.ColeccionPropia;
 import quindioexpress.estructuras.ListaSimplementeEnlazada;
@@ -29,19 +30,19 @@ public class CentroDistribucion {
 
     private final Map<String, Paquete> paquetesPorCodigo = new HashMap<>();
 
-    private final Set<String> municipiosOrdenados = new TreeSet<>();
+    private final Set<String> municipios = new HashSet<>();
 
-    private final SortedSet<String> municipiosOrdenadosSet = new TreeSet<>();
+    private final SortedSet<String> municipiosOrdenados = new TreeSet<>();
 
     private final Map<String, List<Paquete>> paquetesPorDestino = new HashMap<>();
 
-    private final Queue<Paquete> colaLllegada = new ArrayDeque<>();
+    private final Queue<Paquete> colaLlegada = new ArrayDeque<>();
 
     private final PriorityQueue<Paquete> colaPrioridad = new PriorityQueue<>(ComparadoresPaquete.DESPACHO);
 
     private final Map<String, Repartidor> repartidores = new LinkedHashMap<>();
 
-    
+
     private final Map<String, Repartidor> asignaciones = new HashMap<>();
 
     private final ColeccionPropia<Paquete> historial = new ListaSimplementeEnlazada<>();
