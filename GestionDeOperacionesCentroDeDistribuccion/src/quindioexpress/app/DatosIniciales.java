@@ -3,7 +3,7 @@ import quindioexpress.modelo.Paquete;
 import quindioexpress.modelo.Repartidor;
 import quindioexpress.servicio.CentroDistribucion;
 public final class DatosIniciales {
-	private DatosInciales() { }
+	private DatosIniciales() { }
 	
 	public static CentroDistribucion crearCentro() {
 		CentroDistribucion centro = new CentroDistribucion();

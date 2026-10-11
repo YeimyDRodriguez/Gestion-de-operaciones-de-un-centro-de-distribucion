@@ -9,7 +9,7 @@ public class Repartidor {
     private final String zona;
     private boolean disponible;
 
-    public Repartidor(String identificacion, String nombre, String zona) {
+    public Repartidor(String identificacion, String nombre, String zona, boolean disponible) {
         if (identificacion == null || identificacion.isBlank()) {
             throw new IllegalArgumentException("Digitar la identificacion es obligatoria!");
         }
