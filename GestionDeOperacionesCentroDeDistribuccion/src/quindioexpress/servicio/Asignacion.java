@@ -7,8 +7,8 @@ public record Asignacion(Paquete paquete, Repartidor repartidor) {
 
     @Override
     public String toString() {
-        return paquete.getCodigo() + "( " + paquete.getDestino() + ") ->" + repartidor.getNombre() + " "
-                + repartidor.getNombre();
+    	return paquete.getCodigo() + " (" + paquete.getDestino() + ") -> " + repartidor.getIdentificacion() + " "
+    	        + repartidor.getNombre();
     }
 
 }
