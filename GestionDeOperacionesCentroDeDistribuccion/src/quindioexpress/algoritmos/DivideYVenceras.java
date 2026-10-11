@@ -13,8 +13,8 @@ public final class DivideYVenceras {
             throw new IllegalArgumentException("La  lista de paquetes no puede estar vacia");
         }
         Paquete resultadoFinal = masPesado(paquetes, 0, paquetes.size() -1, 0, traza);
-        if (traza) System.out.printf("Resultado Final: " + resultadoFinal.getCodigo() +
-                 "Con " + resultadoFinal.getPeso() + " Kg.");
+        if (traza) System.out.printf("Resultado final: %s con %.1f kg%n",
+                resultadoFinal.getCodigo(), resultadoFinal.getPeso());
         return resultadoFinal;
     }
     private static Paquete masPesado(List<Paquete> paquete, int inicio, int fin, int nivel, boolean traza) {
