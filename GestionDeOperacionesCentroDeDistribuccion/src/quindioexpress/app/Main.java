@@ -19,7 +19,7 @@ public class Main {
     public static void main (String[] args) {
         CentroDistribucion centro = DatosIniciales.crearCentro();
 
-        titulo("1. Registro de paquetes (orden eacto de llegada)");
+        titulo("1. Registro de paquetes (orden exacto de llegada)");
         int i = 1;
         for (Paquete p : centro.getRegistro()) {
             System.out.printf("%2d. %s%n", i++, p);
