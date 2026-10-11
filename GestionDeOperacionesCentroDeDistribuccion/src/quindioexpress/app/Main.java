@@ -59,7 +59,7 @@ public class Main {
             lista.forEach(p -> codigos.add(p.getCodigo()));
             System.out.println(municipio + " -> " + codigos);
         });
-
+        
         titulo("7. Orden natural (Comparable por codigo) y criterios alternativos (Comparator)");
         System.out.println("Por codigo:        " + codigos(centro.getPaquetesOrdenadosPorCodigo()));
         System.out.println("Prioridad desc:    " + codigosCon(centro.getPaquetesOrdenados(
